@@ -106,31 +106,31 @@ df_stk.head()
 
 # %%
 
-df_stk = pd.read_csv(C://Fin510//df_stk)
+df_stk = pd.read_csv(C://datasets//stocks//df_stk)
 df_stk.head()
 
 # %%
 
-df_stk2 = pd.read_csv(C://Fin510//df_stk2)
+df_stk2 = pd.read_csv(C://datasets//stocks//df_stk2)
 df_stk.head()
 
 # %%
 
-df_stk3 = pd.read_csv(C://Fin510//df_stk3)
+df_stk3 = pd.read_csv(C://datasets//stocks//df_stk3)
 df_stk.head()
 
 # %%
 
-df_stk4 = pd.read_csv(C://Fin510//df_stk4)
+df_stk4 = pd.read_csv(C://datasets//stocks//df_stk4)
 df_stk.head()
 
 # %%
- df_stk5 = pd.read_csv(C://Fin510//df_stk5)
+ df_stk5 = pd.read_csv(C://datasets//stocks//df_stk5)
  df_stk.head()
  
  # %%
  
- df_stk6 = pd.read_csv(C://Fin510//df_stk6)
+ df_stk6 = pd.read_csv(C://datasets//stocks//df_stk6)
  df_stk.head()
  
 # %%
