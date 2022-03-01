@@ -1,8 +1,9 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Created on Mon Feb 14 11:57:29 2022
 
-This is a temporary script file.
+@author: chelsea
 """
 
 # To add a new cell, type '# %%'
@@ -24,6 +25,7 @@ def price2ret(prices,retType='simple'):
     return ret
 
 
+                    
 # %%
 def assetPriceReg(df_stk):
     import pandas_datareader.data as web  # module for reading datasets directly from the web
@@ -86,23 +88,51 @@ print(home)
 if sys.platform == 'linux':
     inputDir = '/datasets/stocks/' 
 elif sys.platform == 'win32':
-    inputDir = C:\Users\caarrick\datasets\stocks 
+    inputDir = '\\datasets\stocks\\' 
 else :
     inputDir = '/datasets/stocks/'
     
-fullDir = home+inputDir
-print(fullDir)
-
+print(sys.platform)
+print(inputDir)
+     
 
 # %%
 stkName = 'VZ'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv(readFile,index_col='Date',parse_dates=True)
+df_stk2 = pd.read_csv()
 df_stk.head()
 
+# %%
 
+df_stk = pd.read_csv(C://Fin510//df_stk)
+df_stk.head()
+
+# %%
+
+df_stk2 = pd.read_csv(C://Fin510//df_stk2)
+df_stk.head()
+
+# %%
+
+df_stk3 = pd.read_csv(C://Fin510//df_stk3)
+df_stk.head()
+
+# %%
+
+df_stk4 = pd.read_csv(C://Fin510//df_stk4)
+df_stk.head()
+
+# %%
+ df_stk5 = pd.read_csv(C://Fin510//df_stk5)
+ df_stk.head()
+ 
+ # %%
+ 
+ df_stk6 = pd.read_csv(C://Fin510//df_stk6)
+ df_stk.head()
+ 
 # %%
 df_stk.drop(['Volume'],axis=1,inplace=True)
 df_stk.plot()
@@ -112,20 +142,3 @@ df_stk.plot()
 df_stk['Returns'] = price2ret(df_stk[['Adj Close']])
 df_stk = df_stk.dropna()
 df_stk.head()
-
-
-# %%
-df_stk['Returns'].plot()
-
-
-# %%
-df_stk['Returns'].hist(bins=20)
-
-
-# %%
-df_regOutput = assetPriceReg(df_stk)
-xlsfile=fullDir+stkName+'_CAPM_FF.xlsx'
-print(xlsfile)
-
-# %% output model
-df_regOutput.to_excel(xlsfile)
