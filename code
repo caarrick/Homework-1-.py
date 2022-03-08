@@ -99,7 +99,7 @@ stkName = 'VZ'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk.csv")
+df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk_.csv")
 df_stk.head()
 
 
@@ -108,12 +108,12 @@ stkName = 'VZ'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk2 = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk2.csv")
+df_stk2 = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk_2.csv")
 df_stk.head()
 
 
 # %%
-stkName = 'AMC'
+stkName = 'NFLX'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
@@ -140,7 +140,7 @@ df_stk.head()
 
 
 # %%
-stkName = 'NFLX'
+stkName = 'AMC'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
