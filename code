@@ -99,7 +99,7 @@ stkName = 'VZ'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk_.csv")
+df_stk = pd.read_csv("C:\\Users\\caarrick\\datasets\\stocks\\df_stk_.csv")
 df_stk.head()
 
 
@@ -108,7 +108,7 @@ stkName = 'VZ'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk2 = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk_2.csv")
+df_stk2 = pd.read_csv("C:\\Users\\caarrick\\datasets\\stocks\\df_stk_2.csv")
 df_stk.head()
 
 
@@ -117,7 +117,7 @@ stkName = 'NFLX'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk3 = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk3.csv")
+df_stk3 = pd.read_csv("C:\\Users\\caarrick\\datasets\\stocks\\df_stk3.csv")
 df_stk.head()
 
 
@@ -126,7 +126,7 @@ stkName = 'AMC'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk4 = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk4.csv")
+df_stk4 = pd.read_csv("C:\\Users\\caarrick\\datasets\\stocks\\df_stk4.csv")
 df_stk.head()
 
 
@@ -135,7 +135,7 @@ stkName = 'NFLX'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk5 = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk5.csv")
+df_stk5 = pd.read_csv("C:\\Users\\caarrick\\datasets\\stocks\\df_stk5.csv")
 df_stk.head()
 
 
@@ -144,7 +144,7 @@ stkName = 'AMC'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk6 = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk6.csv")
+df_stk6 = pd.read_csv("C:\\Users\\caarrick\\datasets\\stocks\\df_stk6.csv")
 df_stk.head()
 
 
