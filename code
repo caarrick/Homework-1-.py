@@ -108,46 +108,46 @@ stkName = 'VZ'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk.csv")
+df_stk2 = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk2.csv")
 df_stk.head()
 
-df_stk = VZ
+
 # %%
 stkName = 'AMC'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk.csv")
+df_stk3 = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk3.csv")
 df_stk.head()
 
-df_stk = AMC
+
 # %%
 stkName = 'AMC'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk.csv")
+df_stk4 = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk4.csv")
 df_stk.head()
 
-df_stk = AMC 
+
 # %%
 stkName = 'NFLX'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk.csv")
+df_stk5 = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk5.csv")
 df_stk.head()
 
-df_stk = NFLX
+
 # %%
 stkName = 'NFLX'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk.csv")
+df_stk6 = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk6.csv")
 df_stk.head()
 
-df_stk = NFLX
+
 # %%
 df_stk.drop(['Volume'],axis=1,inplace=True)
 df_stk.plot()
