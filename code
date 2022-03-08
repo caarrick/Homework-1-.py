@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
-
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
 # %%
 import pandas as pd
 import numpy as np 
@@ -99,7 +90,7 @@ stkName = 'VZ'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv(C:\Users\caarrick\datasets\stocks\df_stk.xlsx)
+df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk.xlsx")
 df_stk.head()
 
 df_stk = VZ
@@ -108,7 +99,7 @@ stkName = 'VZ'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv(C:\Users\caarrick\datasets\stocks\df_stk.xlsx)
+df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk.xlsx")
 df_stk.head()
 
 df_stk = VZ
@@ -117,7 +108,7 @@ stkName = 'AMC'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv(C:\Users\caarrick\datasets\stocks\df_stk.xlsx)
+df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk.xlsx")
 df_stk.head()
 
 df_stk = AMC
@@ -126,7 +117,7 @@ stkName = 'AMC'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv(C:\Users\caarrick\datasets\stocks\df_stk.xlsx)
+df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk.xlsx")
 df_stk.head()
 
 df_stk = AMC 
@@ -135,7 +126,7 @@ stkName = 'NFLX'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv(C:\Users\caarrick\datasets\stocks\df_stk.xlsx)
+df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk.xlsx")
 df_stk.head()
 
 df_stk = NFLX
@@ -144,7 +135,7 @@ stkName = 'NFLX'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
-df_stk = pd.read_csv(C:\Users\caarrick\datasets\stocks\df_stk.xlsx)
+df_stk = pd.read_csv("C:\Users\caarrick\datasets\stocks\df_stk.xlsx")
 df_stk.head()
 
 df_stk = NFLX
