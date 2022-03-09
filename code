@@ -169,17 +169,6 @@ df_regOutput = assetPriceReg(df_stk)
 xlsfile=fullDir+stkName+'_CAPM_FF.xlsx'
 print(xlsfile)
 
-# %% output model
-df_regOutput.to_excel(
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+# %%
+    df_stock_factor = pd.merge(df_stk,df_factors,left_index=True,right_index=True) # Merging the stock and factor returns dataframes together
+    df_stock_factor['XsRet'] = df_stock_factor['Returns'] - df_stock_factor['RF'] # Calculating excess returns
