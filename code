@@ -174,7 +174,7 @@ print(xlsfile)
     df_stock_factor['XsRet'] = df_stock_factor['Close'] - df_stock_factor['Return'] # Calculating excess returns
 
 # %%
-    df_stock_factor = pd.merge(df_stke,df_stk5,left_index=True,right_index=True) # Merging the stock and factor returns dataframes together
+    df_stock_factor = pd.merge(df_stk3,df_stk5,left_index=True,right_index=True) # Merging the stock and factor returns dataframes together
     df_stock_factor['XsRet'] = df_stock_factor['Close'] - df_stock_factor['Return'] # Calculating excess returns
     
 # %%
