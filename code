@@ -170,5 +170,14 @@ xlsfile=fullDir+stkName+'_CAPM_FF.xlsx'
 print(xlsfile)
 
 # %%
-    df_stock_factor = pd.merge(df_stk,df_factors,left_index=True,right_index=True) # Merging the stock and factor returns dataframes together
-    df_stock_factor['XsRet'] = df_stock_factor['Returns'] - df_stock_factor['RF'] # Calculating excess returns
+    df_stock_factor = pd.merge(df_stk,df_stk2,left_index=True,right_index=True) # Merging the stock and factor returns dataframes together
+    df_stock_factor['XsRet'] = df_stock_factor['Close'] - df_stock_factor['Return'] # Calculating excess returns
+
+# %%
+    df_stock_factor = pd.merge(df_stke,df_stk5,left_index=True,right_index=True) # Merging the stock and factor returns dataframes together
+    df_stock_factor['XsRet'] = df_stock_factor['Close'] - df_stock_factor['Return'] # Calculating excess returns
+    
+# %%
+
+    df_stock_factor = pd.merge(df_stk4,df_stk6,left_index=True,right_index=True) # Merging the stock and factor returns dataframes together
+    df_stock_factor['XsRet'] = df_stock_factor['Close'] - df_stock_factor['Return'] # Calculating excess returns
